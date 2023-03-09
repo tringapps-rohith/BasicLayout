@@ -1,0 +1,132 @@
+body{
+    background-color: #ebecf1;
+    color:#b3b9b9;
+  animation: bodyColor 5s infinite;
+  
+}
+@keyframes bodyColor {
+from{
+
+  background-color: rgba(227, 227, 20, 0.737);
+}
+to
+{
+  background-color: aquamarine;
+}
+  
+}
+.wrapper{
+    width:1150px;
+    margin:25px auto;
+
+}
+.links
+{
+margin-bottom:20px;
+background:grey ;
+padding:15px;
+border-radius:3px;
+}
+
+img{
+  width:200px;  
+}
+.view_main{
+  background-color: #fff;
+  border-radius:3px;
+  padding:15px;
+
+}
+
+
+
+ .title
+{
+  font-weight :600;
+  color:black
+  /* margin-top: 100px; */
+}
+.imgh
+{
+  height:200px;
+}
+
+.grid-view .content{
+  margin:5px 0;
+  font-size:16px;
+  overflow: scroll;
+  height: 150px;
+  font-weight:200;
+  color:black;
+
+  
+}
+.btn
+{
+  width:125px;
+  background:deepskyblue;
+  color:#fff;
+  border-radius: 3px;
+  padding: 8px 5px; 
+  text-align:center;
+  font-weight:200;
+  cursor:pointer;
+}
+.btn:hover{
+  background-color: blue ;
+}
+.grid-view{
+  width:100%;
+}
+.grid-view .view_item{
+  width:260px;
+  /* height: 600px; */
+  border:2px solid #e2efe1;
+  padding:25px;
+  text-align:center;
+  margin:10px;
+  display:inline-block;
+}
+.grid-view .view_item .vi_left{
+  margin-bottom:10px;
+
+}
+.grid-view .view_item .btn{
+  margin:0 auto;
+
+  
+}
+header {
+  width:1150px;
+  height:200px;
+  margin: auto;
+}
+.imghead{
+  width:100%;
+  height:500px;
+  background:url(banner3.jfif);
+  animation:slide 7s infinite;
+}
+/* set of rules from-0 to-100*/
+@keyframes slide{
+  20%{
+    background:url(banner-2.jpeg);
+  }
+  50%{
+    background:url(banner.jpeg);
+
+  }
+  75%{
+    background:url(https://i.pinimg.com/originals/99/dc/88/99dc88e11e5cdb212562800d90bcd790.jpg);
+    
+  }
+}
+footer {
+  width:1150px;
+  height:85px;
+  margin: auto;
+  color:red;
+  background-color:#b3b9b9;
+  font-size:35px;
+  text-align:center;
+}
